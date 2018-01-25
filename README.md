@@ -1,6 +1,16 @@
-# Functional-Light JavaScript (book)
+# Functional-Light JavaScript
 
-This book explores the core principles of functional programming (FP) as they are applied to JavaScript. But what makes this book different is that we approach these principles without drowning in all the heavy terminology. We look at a subset of FP foundational concepts that I call "Functional-Light Programming" (FLP) and apply it to JavaScript.
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a href="https://leanpub.com/fljs"><img src="manuscript/images/marketing/front-cover-small.png" width="25%" align="right" hspace="20" vspace="20" title="Functional-Light JavaScript" alt="Book Cover"></a>
+
+This book is a balanced, pragmatic look at FP in JavaScript. The first edition is now complete.
+
+<p align="center">
+    <a href="https://leanpub.com/fljs"><img src="https://img.shields.io/badge/Buy-Leanpub-yellow.svg" title="Buy on Leanpub" alt="Buy on Leanpub"></a>
+</p>
+
+"Functional-Light JavaScript" explores the core principles of functional programming (FP) as they are applied to JavaScript. But what makes this book different is that we approach these principles without drowning in all the heavy terminology. We look at a subset of FP foundational concepts that I call "Functional-Light Programming" (FLP) and apply it to JavaScript.
 
 **Note:** Despite the word "Light" in the title, I do not consider or recommend this book as a "beginner", "easy", or "intro" book on the topic. This book is rigorous and full of gritty detail; it expects a solid foundation of JS knowledge before diving in. "Light" means limited in scope; instead of being more broad, this book goes much deeper into each topic than you typically find in other FP-JavaScript books.
 
@@ -10,34 +20,36 @@ That's not to say the terms are meaning*less* or that FPrs are bad for using the
 
 But I want you to be able to apply some of the fundamentals of FP to your JavaScript *now*, because I believe it will help you write better, more *reason*able code.
 
-**To read more about the motivations and perspective behind this book, check out the [Preface](preface.md).**
+**To read more about the motivations and perspective behind this book, check out the [Preface](manuscript/preface.md).**
 
 ## Book
 
-[Table of Contents](toc.md)
+[Table of Contents](manuscript/README.md/#table-of-contents)
 
-* [Foreword](foreword.md) (by [Brian Lonsdorf aka "Prof Frisby"](https://twitter.com/DrBoolean))
-* [Preface](preface.md)
-* [Chapter 1: Why Functional Programming?](ch1.md)
-* [Chapter 2: Foundations of Functional Functions](ch2.md)
-* [Chapter 3: Managing Function Inputs](ch3.md)
-* [Chapter 4: Composing Functions](ch4.md)
-* [Chapter 5: Reducing Side Effects](ch5.md)
-* [Chapter 6: Value Immutability](ch6.md)
-* [Chapter 7: Closure vs Object](ch7.md)
-* [Chapter 8: List Operations](ch8.md)
-* [Chapter 9: Recursion](ch9.md)
-* [Chapter 10: Functional Async](ch10.md)
-* [Chapter 11: Putting It All together](ch11.md)
-* [Appendix A: Transducing](apA.md)
-* [Appendix B: The Humble Monad](apB.md)
-* [Appendix C: FP Libraries](apC.md)
+* [Foreword](manuscript/foreword.md/#foreword) (by [Brian Lonsdorf, aka "Prof Frisby"](https://twitter.com/DrBoolean))
+* [Preface](manuscript/preface.md/#preface)
+* [Chapter 1: Why Functional Programming?](manuscript/ch1.md/#chapter-1-why-functional-programming)
+* [Chapter 2: The Nature Of Functions](manuscript/ch2.md/#chapter-2-the-nature-of-functions)
+* [Chapter 3: Managing Function Inputs](manuscript/ch3.md/#chapter-3-managing-function-inputs)
+* [Chapter 4: Composing Functions](manuscript/ch4.md/#chapter-4-composing-functions)
+* [Chapter 5: Reducing Side Effects](manuscript/ch5.md/#chapter-5-reducing-side-effects)
+* [Chapter 6: Value Immutability](manuscript/ch6.md/#chapter-6-value-immutability)
+* [Chapter 7: Closure vs Object](manuscript/ch7.md/#chapter-7-closure-vs-object)
+* [Chapter 8: Recursion](manuscript/ch8.md/#chapter-8-recursion)
+* [Chapter 9: List Operations](manuscript/ch9.md/#chapter-9-list-operations)
+* [Chapter 10: Functional Async](manuscript/ch10.md/#chapter-10-functional-async)
+* [Chapter 11: Putting It All Together](manuscript/ch11.md/#chapter-11-putting-it-all-together)
+* [Appendix A: Transducing](manuscript/apA.md/#appendix-a-transducing)
+* [Appendix B: The Humble Monad](manuscript/apB.md/#appendix-b-the-humble-monad)
+* [Appendix C: FP Libraries](manuscript/apC.md/#appendix-c-fp-libraries)
 
 ## Publishing
 
-I'm self-publishing this book, most likely digitally [on Leanpub](https://leanpub.com/fljs/). I'll also be trying to work out an option to sell print book copies, but that part is still uncertain.
+This book has been published [and is now available for purchase on Leanpub](https://leanpub.com/fljs/). I'll also be trying to work out an option to sell print book copies, but that part is still uncertain.
 
-If you'd like to contribute financially towards the effort (or any of my other OSS work) aside from purchasing the books, I do have a [patreon](https://www.patreon.com/getify) that I would always appreciate your generosity towards.
+[![Buy on Leanpub](https://img.shields.io/badge/Buy-Leanpub-yellow.svg)](https://leanpub.com/fljs)
+
+If you'd like to contribute financially towards the effort (or any of my other OSS work) aside from purchasing the book, I do have a [patreon](https://www.patreon.com/getify) that I would always appreciate your generosity towards.
 
 <a href="https://www.patreon.com/getify">[![patreon.png](https://s11.postimg.org/axpzguh77/patreon.png)](https://www.patreon.com/getify)</a>
 
@@ -45,13 +57,11 @@ If you'd like to contribute financially towards the effort (or any of my other O
 
 The content for this book derives heavily from a training workshop I teach professionally (in both public and private-corporate workshop format) of the same name.
 
-If you like this content and would like to contact me regarding conducting training on this, or other various JS/HTML5/Node.js topics, please reach out to me through any of these channels listed here:
-
-[http://getify.me](http://getify.me)
+If you like this content and would like to contact me regarding conducting training on this, or other various JS/HTML5/Node.js topics, please reach out to me through email: getify @ gmail
 
 ## Online Video Training
 
-I also have several JS training courses available in on-demand video format. I teach courses through [Frontend Masters](https://FrontendMasters.com), like my [Functional-Lite JS](https://frontendmasters.com/courses/functional-js-lite/) workshop. Some of those courses are also available on [PluralSight](https://www.pluralsight.com/search?q=kyle%20simpson&categories=all).
+I also have several JS training courses available in on-demand video format. I [teach courses](https://FrontendMasters.com/teachers/kyle-simpson) through [Frontend Masters](https://FrontendMasters.com), like my [Functional-Light JavaScript v2](https://frontendmasters.com/courses/functional-javascript-v2/) workshop. Some of my courses are also available on [PluralSight](https://www.pluralsight.com/search?q=kyle%20simpson&categories=all).
 
 ## Contributions
 
